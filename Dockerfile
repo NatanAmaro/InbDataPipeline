@@ -10,4 +10,4 @@ ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-arm64
 
 USER airflow
 
-RUN pip install apache-airflow apache-airflow-providers-openlineage==1.8.0 pyspark
+RUN pip install apache-airflow apache-airflow-providers-apache-spark apache-airflow-providers-openlineage==1.11.0 pyspark
